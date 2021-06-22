@@ -1,0 +1,27 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    border-radius: 0%;
+    margin: 0%;
+}
+.nav-left {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.logo {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.nav-right {
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+body {
+    background-image: url("https://www.zillowstatic.com/s3/homepage/static/_Desktop_Overlay_ChangeStartsHere_HC.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 0%;
+    background-size: contain;
+}
